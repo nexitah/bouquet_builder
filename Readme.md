@@ -16,4 +16,4 @@ This script creates bouquets based on a design.
         docker run -a stdin -a stdout -i -t bouquet
 
 4. Run!
-    Just past your feed of designs and flowers
+    Just pass your feed of designs and flowers

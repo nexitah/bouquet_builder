@@ -58,16 +58,6 @@ def generate_bouquet(
             bouquet[item] = stock_flowers.get(item, 0)
             stock_flowers[item] = stock_flowers.get(item, 0) - amount
 
-        # if stock_flowers.get(item, 0) == remainder:
-        #     final_amount = stock_flowers.get(item, 0)
-        #     flower = item
-        #     stock_flowers[item] = stock_flowers.get(item, 0) - remainder
-
-    # if bouquet.keys() == requested_flowers.keys() and remainder > 0 and final_amount > 0:
-    #     bouquet[flower] = final_amount
-    #     stock_flowers[flower] = stock_flowers.get(flower, 0) - remainder
-    #     bouquet['completed'] = True
-
     if bouquet.keys() == requested_flowers.keys() and remainder > 0:
         for flower, quantity in stock_flowers.items():
             if quantity >= remainder:

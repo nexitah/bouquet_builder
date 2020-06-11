@@ -71,7 +71,7 @@ def new_bouquet(
         design: Design, large_flowers: Dict, small_flowers: Dict,
         bouquet: Dict):
     """
-    Create a small or large bouquet
+    Create small or large bouquet
     :param design:
     :param large_flowers:
     :param small_flowers:
